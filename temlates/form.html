@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body bgcolor="green">
+<form method="POST" action="/adddata/">
+	{% csrf_token %}
+
+<!--	<label>Name</label><br>-->
+<!--	<input type="text" name="name"><br>-->
+<!--	<label>Email</label><br>-->
+<!--	<input type="email" name="email"><br>-->
+<!--	<label>Mobile</label><br>-->
+<!--	<input type="text" name="mob"><br>-->
+<!--	<label>Salary</label><br>-->
+<!--	<input type="number" name="sal"><br>-->
+	{{form.as_p}}
+	<input type="submit" name="sub">
+</form>
+</body>
+</html>

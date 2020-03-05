@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><!DOCTYPE html>
+<html>
+<head>
+	<title>form page</title>
+</head>
+<body>
+<form method="post" action="/adddata2/">
+	{% csrf_token %}
+	<label>Name</label><br>
+	<input type="text" name="name"><br>
+	<label>Email</label><br>
+	<input type="email" name="email"><br>
+	<label>Mobile</label><br>
+	<input type="text" name="mob"><br>
+	<label>Salary</label><br>
+	<input type="number" name="sal"><br>
+	<input type="submit" name="sub">
+</form>
+</body>
+</html>

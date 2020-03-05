@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 style="color:red "> Employee details </h1>
+<table border=2 >
+
+    <tr bgcolor="blue">
+        <th>Name</th>
+        <th>Email ID</th>
+        <th>Mobile No.</th>
+        <th>Salary</th>
+        <th colspan="2">Action</th>
+    </tr>
+ {% for data in data %}
+<tr >
+	<td bgcolor="red">{{ data.name }}</td>
+	<td bgcolor="green">{{ data.email }}</td>
+	<td bgcolor="purple">{{ data.mobile }}</td>
+	<td bgcolor="yellow">{{ data.salary }}</td>
+	<td bgcolor="orange"><a href="/getdataforedit/{{data.id}}">edit</a></td>
+	<td bgcolor="red"><a href="/delete/{{data.id}}">Delete</a></td>
+</tr>
+{% endfor %}
+
+</table>
+<button >
+<a href="/adddata/">add</a>
+
+    </button>
+</body>
+</html>
