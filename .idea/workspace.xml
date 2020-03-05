@@ -8,7 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="C:" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Ygh0nc9hvX4VwxO6QL00v7UOTc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -48,10 +48,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="186" y="10" key="SettingsEditor" timestamp="1583372408452">
+    <state x="186" y="10" key="SettingsEditor" timestamp="1583386791235">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583372408452" />
+    <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583386791235" />
     <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1583384978801">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
